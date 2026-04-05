@@ -1,0 +1,9 @@
+# 忽略暫存與系統檔
+__pycache__/
+.DS_Store
+Thumbs.db
+temp/
+
+# 如果你只想保留真題，就把 synthetic_data 排除
+# 但如果你堅持要留，就不要寫下面這行
+# synthetic_data/

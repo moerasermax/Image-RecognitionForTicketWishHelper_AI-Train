@@ -1,0 +1,86 @@
+PS C:\Users\Moera\OneDrive\桌面\captured_data> py .\02_data_generator_V2.py
+正在生成 8000 張高擬合度影像...
+PS C:\Users\Moera\OneDrive\桌面\captured_data> py .\03_train.py
+🆕 未發現舊權重，將從頭開始訓練（使用 Kaiming 初始化）...
+🚀 戰鬥開始！設備: cuda | 訓練集規模: 10500
+Epoch [01/80] | Train: 5.9149 | Val: 3.5242 | LR: 0.000100
+Epoch [02/80] | Train: 3.5929 | Val: 3.3744 | LR: 0.000100
+Epoch [03/80] | Train: 3.4104 | Val: 3.1868 | LR: 0.000100
+Epoch [04/80] | Train: 3.3777 | Val: 3.1146 | LR: 0.000099
+Epoch [05/80] | Train: 3.3615 | Val: 3.0594 | LR: 0.000099
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [06/80] | Train: 3.3272 | Val: 2.9487 | LR: 0.000099
+Epoch [07/80] | Train: 3.2523 | Val: 2.8504 | LR: 0.000098
+Epoch [08/80] | Train: 3.0831 | Val: 2.6306 | LR: 0.000098
+Epoch [09/80] | Train: 2.9010 | Val: 2.4029 | LR: 0.000097
+Epoch [10/80] | Train: 2.7043 | Val: 2.1609 | LR: 0.000096
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [11/80] | Train: 2.4610 | Val: 1.9273 | LR: 0.000095
+Epoch [12/80] | Train: 2.2291 | Val: 1.7533 | LR: 0.000095
+Epoch [13/80] | Train: 2.0184 | Val: 1.5738 | LR: 0.000094
+Epoch [14/80] | Train: 1.8143 | Val: 1.4080 | LR: 0.000093
+Epoch [15/80] | Train: 1.6570 | Val: 1.1686 | LR: 0.000092
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [16/80] | Train: 1.4924 | Val: 1.0422 | LR: 0.000090
+Epoch [17/80] | Train: 1.3543 | Val: 0.9605 | LR: 0.000089
+Epoch [18/80] | Train: 1.2261 | Val: 0.8069 | LR: 0.000088
+Epoch [19/80] | Train: 1.1089 | Val: 0.7254 | LR: 0.000087
+Epoch [20/80] | Train: 1.0028 | Val: 0.6324 | LR: 0.000085
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [21/80] | Train: 0.9096 | Val: 0.5714 | LR: 0.000084
+Epoch [22/80] | Train: 0.8243 | Val: 0.5066 | LR: 0.000082
+Epoch [23/80] | Train: 0.7435 | Val: 0.4381 | LR: 0.000081
+Epoch [24/80] | Train: 0.6620 | Val: 0.3813 | LR: 0.000079
+Epoch [25/80] | Train: 0.5869 | Val: 0.3399 | LR: 0.000078
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [26/80] | Train: 0.5271 | Val: 0.3019 | LR: 0.000076
+Epoch [27/80] | Train: 0.4702 | Val: 0.2998 | LR: 0.000074
+Epoch [28/80] | Train: 0.4169 | Val: 0.2488 | LR: 0.000073
+Epoch [29/80] | Train: 0.3756 | Val: 0.2216 | LR: 0.000071
+Epoch [30/80] | Train: 0.3276 | Val: 0.2127 | LR: 0.000069
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [31/80] | Train: 0.3010 | Val: 0.1872 | LR: 0.000067
+Epoch [32/80] | Train: 0.2665 | Val: 0.1737 | LR: 0.000065
+Epoch [33/80] | Train: 0.2375 | Val: 0.1582 | LR: 0.000064
+Epoch [34/80] | Train: 0.2143 | Val: 0.1522 | LR: 0.000062
+Epoch [35/80] | Train: 0.1956 | Val: 0.1416 | LR: 0.000060
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [36/80] | Train: 0.1766 | Val: 0.1352 | LR: 0.000058
+Epoch [37/80] | Train: 0.1634 | Val: 0.1320 | LR: 0.000056
+Epoch [38/80] | Train: 0.1498 | Val: 0.1215 | LR: 0.000054
+Epoch [39/80] | Train: 0.1351 | Val: 0.1152 | LR: 0.000052
+Epoch [40/80] | Train: 0.1206 | Val: 0.1161 | LR: 0.000050
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [41/80] | Train: 0.1132 | Val: 0.1093 | LR: 0.000048
+Epoch [42/80] | Train: 0.1090 | Val: 0.1061 | LR: 0.000046
+Epoch [43/80] | Train: 0.1007 | Val: 0.1024 | LR: 0.000044
+Epoch [44/80] | Train: 0.0928 | Val: 0.0998 | LR: 0.000042
+Epoch [45/80] | Train: 0.0896 | Val: 0.1013 | LR: 0.000040
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [46/80] | Train: 0.0856 | Val: 0.0926 | LR: 0.000038
+Epoch [47/80] | Train: 0.0803 | Val: 0.0977 | LR: 0.000036
+Epoch [48/80] | Train: 0.0787 | Val: 0.0920 | LR: 0.000035
+Epoch [49/80] | Train: 0.0714 | Val: 0.0891 | LR: 0.000033
+Epoch [50/80] | Train: 0.0681 | Val: 0.0901 | LR: 0.000031
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [51/80] | Train: 0.0657 | Val: 0.0885 | LR: 0.000029
+Epoch [52/80] | Train: 0.0634 | Val: 0.0878 | LR: 0.000027
+Epoch [53/80] | Train: 0.0609 | Val: 0.0854 | LR: 0.000026
+Epoch [54/80] | Train: 0.0578 | Val: 0.0845 | LR: 0.000024
+Epoch [55/80] | Train: 0.0564 | Val: 0.0834 | LR: 0.000022
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [56/80] | Train: 0.0554 | Val: 0.0831 | LR: 0.000021
+Epoch [57/80] | Train: 0.0539 | Val: 0.0832 | LR: 0.000019
+Epoch [58/80] | Train: 0.0525 | Val: 0.0819 | LR: 0.000018
+Epoch [59/80] | Train: 0.0506 | Val: 0.0814 | LR: 0.000016
+Epoch [60/80] | Train: 0.0491 | Val: 0.0802 | LR: 0.000015
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [61/80] | Train: 0.0483 | Val: 0.0803 | LR: 0.000013
+Epoch [62/80] | Train: 0.0477 | Val: 0.0798 | LR: 0.000012
+Epoch [63/80] | Train: 0.0466 | Val: 0.0790 | LR: 0.000011
+Epoch [64/80] | Train: 0.0459 | Val: 0.0787 | LR: 0.000010
+Epoch [65/80] | Train: 0.0454 | Val: 0.0785 | LR: 0.000008
+💾 進度已保存至 ./checkpoints\crnn_last.pth
+Epoch [66/80] | Train: 0.0444 | Val: 0.0783 | LR: 0.000007
+Epoch [67/80] | Train: 0.0431 | Val: 0.0777 | LR: 0.000006
+Epoch [68/80] | Train: 0.0429 | Val: 0.0772 | LR: 0.000005
